@@ -4,7 +4,7 @@ graph TD
 
     B --> C[Definir Escopo do Projeto e Objetivos];
     C --> D[Identificar Stakeholders];
-    D --> E[Desenvolver Termo de Abertura do Projeto (TAP)];
+    D --> E[Desenvolver Termo de Abertura do Projeto \(TAP\)];
     E --> F[Obter Aprovação do TAP];
 
     F -- Aprovação Negada --> B;
