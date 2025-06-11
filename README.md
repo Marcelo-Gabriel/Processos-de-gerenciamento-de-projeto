@@ -1,34 +1,19 @@
 ```mermaid
 graph TD
-    A[Início do Projeto] --> B{Iniciação do Projeto};
-    B -- Sim --> C[Definir Escopo e Objetivos];
-    B -- Não --> A;
-    C --> D[Desenvolver Plano de Projeto];
-    D --> E{Executar o Projeto};
-    E -- Em Andamento --> F[Monitorar e Controlar];
-    F -- Problemas/Mudanças --> G[Gerenciar Mudanças/Riscos];
-    G --> E;
-    E -- Concluído --> H[Encerrar o Projeto];
-    H --> I[Revisão Pós-Projeto];
-    I --> J[Fim do Projeto];
+    A[Iniciação do Projeto] --> B{Definir Escopo e Objetivos?};
+    B -- Sim --> C[Planejamento do Projeto];
+    B -- Não --> D[Rejeitar Projeto/Revisar];
+    D --> A;
 
-    subgraph Iniciação
-        B;
-        C;
-    end
+    C --> E[Execução do Projeto];
+    E --> F[Monitoramento e Controle do Projeto];
+    F --> G{Desvios/Problemas Identificados?};
+    G -- Sim --> H[Ações Corretivas/Preventivas];
+    G -- Não --> I{Metas Atendidas?};
+    H --> F;
 
-    subgraph Planejamento
-        D;
-    end
+    I -- Sim --> J[Encerramento do Projeto];
+    I -- Não --> F;
 
-    subgraph Execução e Controle
-        E;
-        F;
-        G;
-    end
-
-    subgraph Encerramento
-        H;
-        I;
-        J;
-    end
+    J --> K[Lições Aprendidas e Relatórios];
+    K --> L[Arquivar Documentação];
