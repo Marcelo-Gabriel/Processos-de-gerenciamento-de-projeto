@@ -39,7 +39,7 @@ graph TD
     E --> E5[Realizar Controle de Qualidade];
     E --> E6[Gerenciar Riscos];
     E --> E7[Gerenciar Aquisições];
-    E --> E8[Gerenciar Comunicações];
+E --> E8[Gerenciar Comunicações];
     E --> E9[Gerenciar Partes Interessadas];
     E1 -- "Identificar Desvios" --> E2; E2 --> E3; E3 --> E4; E4 --> E5; E5 --> E6; E6 --> E7; E7 --> E8; E8 --> E9;
     E9 --> E10[Análise e Ações Corretivas/Preventivas];
@@ -52,4 +52,3 @@ graph TD
     F --> F4[Análise Pós-Projeto (Lições Aprendidas)];
     F --> F5[Arquivo de Documentos do Projeto];
     F5 --> G[Fim do Projeto];
-```
