@@ -1,5 +1,9 @@
-graph TD
+# Meu Fluxograma de Gerenciamento de Projetos
+
+Este é um exemplo de fluxograma de gerenciamento de projetos usando Mermaid.
+
 ```mermaid
+graph TD
     A[Início do Projeto] --> B{Iniciação};
 
     B --> B1[Identificar Stakeholders];
