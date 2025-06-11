@@ -46,4 +46,3 @@ graph TD
     GG --> HH[Arquivar Documentos do Projeto];
     HH --> II[Liberar Recursos da Equipe];
     II --> JJ[Fim do Projeto];
-```
