@@ -1,4 +1,5 @@
 graph TD
+```mermaid
     A[Início do Projeto] --> B{Iniciação};
 
     B --> B1[Identificar Stakeholders];
