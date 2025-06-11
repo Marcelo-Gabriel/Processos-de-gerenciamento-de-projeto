@@ -1,3 +1,8 @@
+# Fluxograma de Processos de Gerenciamento de Projetos
+
+Este fluxograma ilustra as principais fases e processos do gerenciamento de projetos.
+
+```mermaid
 graph TD
     A[Início do Projeto] --> B{Iniciação};
 
