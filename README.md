@@ -52,3 +52,4 @@ graph TD
     F --> F4[Análise Pós-Projeto (Lições Aprendidas)];
     F --> F5[Arquivo de Documentos do Projeto];
     F5 --> G[Fim do Projeto];
+```
